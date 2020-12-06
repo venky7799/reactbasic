@@ -32,7 +32,7 @@ secondHandler=()=>{
     persons:[
       {name:'maxium', age:24},
       {name:'raviteja',age:28},
-      {name:'venky',age:21}
+      {name:'venk',age:21}
     ]
   })
 }
