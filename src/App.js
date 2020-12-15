@@ -1,44 +1,48 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Person from './Person/Person';
 
+/*
+class App extends Component*/
 
-class App extends Component {
+const app = props => {
+  
+  useState({
+    
+  })
+  /*
   state = {
     persons:[
       {name:'Max', age:24},
       {name:'mohan',age:28},
       {name:'venky',age:21}
     ]
-  }
-
-
-
-
-switchNameHandler=()=>{
-//  console.log(Math.random()*10)//
-// DON'T DO THIS- this.state.persons[0].name='visweswara rao';//
-this.setState({
-  persons: [
-    {name:'maximum',age:24},
-    {name:'mohan',age:28},
-    {name:'venky',age:22}
-  ]
-})
-}
-
-secondHandler=()=>{
+  };
+  switchNameHandler=()=>{
+  //  console.log(Math.random()*10)//
+  // DON'T DO THIS- this.state.persons[0].name='visweswara rao';//
   this.setState({
-    persons:[
-      {name:'maxium', age:24},
-      {name:'raviteja',age:28},
-      {name:'venk',age:21}
+    persons: [
+      {name:'maximum',age:24},
+      {name:'mohan',age:28},
+      {name:'venky',age:22}
     ]
   })
-}
+  };
+
+  secondHandler=()=>{
+    this.setState({
+      persons:[
+        {name:'maxium', age:24},
+        {name:'raviteja',age:28},
+        {name:'venk',age:21}
+      ]
+    })
+  }
+*/
 
 
-  render() {
+ 
     return (
       <div className="App">
         <h1>venkatesh yedureswarapu</h1>
@@ -53,6 +57,5 @@ secondHandler=()=>{
       
     );
   }
-}
 
-export default App;
+export default app;
